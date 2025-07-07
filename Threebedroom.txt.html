@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Bedroom Listings - Tempest Real Estate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .property {
+      background: #fff;
+      padding: 15px;
+      margin: 15px auto;
+      max-width: 500px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .property h3 {
+      margin-top: 0;
+    }
+    .property p {
+      margin: 8px 0;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXLLTR3BVL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MXLLTR3BVL');
+  </script> 
+</head>
+<body>
+
+<header>Tempest Real Estate</header>
+
+<h2>Three Bedroom Listings</h2>
+<p>Find available three bedrooms in your area. Contact the landlords directly for details.</p>
+
+<section>
+  <div class="property">
+    <h3>Bedsitter in Ol'kalou Town</h3>
+    <p>Price: Ksh 4,500 per month</p>
+    <p>Contact: <a href="tel:+254712345678" onclick="trackCall('Olkalou Bedsitter')">Call Landlord</a></p>
+  </div>
+
+  <div class="property">
+    <h3>Spacious Bedsitter near Nyahururu Road</h3>
+    <p>Price: Ksh 5,000 per month</p>
+    <p>Contact: <a href="tel:+254798765432" onclick="trackCall('Olkalou Bedsitter')">Call Landlord</a></p>
+  </div>
+</section>
+
+<footer>&copy; 2025 Tempest Real Estate. All rights reserved.</footer>
+<script>
+    function trackCall(listing){if(window.gtag){gtag('event','call_click',{'event_category':'Calls','event_label':listing})}}
+  </script>
+
+</body>
+</html>

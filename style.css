@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+header {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #333;
+}
+h2 {
+  color: #555;
+  margin-top: 30px;
+}
+p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 50px;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: #aaa;
+  font-size: 1rem;
+}
